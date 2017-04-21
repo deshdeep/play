@@ -47,3 +47,10 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
+
+# Use bootstrap to make app responsive
+gem 'bootstrap-sass'
+
+# Use paginate gems for pagination
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'

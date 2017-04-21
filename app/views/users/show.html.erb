@@ -1,0 +1,10 @@
+<h1>Show Profile detail</h1>
+
+<p>
+	First Name 	  : <%= @user.first_name  	%> <br>
+	Last  Name 	  : <%= @user.last_name     %> <br>
+	Email      	  : <%= @user.email       	%> <br>
+	Mobile Number : <%= @user.mobile_number %> <br>
+	<%= link_to 'Edit', edit_user_path(@user)%>
+	<%= link_to 'Index', users_path%>
+</p>
